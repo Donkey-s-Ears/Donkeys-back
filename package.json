@@ -1,0 +1,25 @@
+{
+    "name": "Donkeys-back",
+    "version": "1.0.0",
+    "description": "### member - kwlee, hyeokim",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Donkey-s-Ears/donkeys-back.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Donkey-s-Ears/donkeys-back/issues"
+    },
+    "homepage": "https://github.com/Donkey-s-Ears/donkeys-back#readme",
+    "dependencies": {
+        "@types/express": "^4.17.11",
+        "express": "^4.17.1",
+        "typescript": "^4.2.4"
+    }
+}
