@@ -15,7 +15,7 @@ app.use(cookieParser());
 sequelize
     .sync({ force: false })
     .then(async () => {
-        console.log('Database connection success');
+        console.log('DB connection success');
     })
     .catch((error) => console.log(error.message));
 
@@ -26,13 +26,6 @@ const runServer = async () => {
     console.log('Set application...');
     app.listen(process.env.PORT, async () => {
         console.log(`server Run with port: ${process.env.PORT}`);
-        // await sequelize
-        //     .authenticate()
-        //     .then(async () => {
-        //         console.log('DB connection success');
-        //     })
-        //     .catch((error) => {
-        //     });
     });
 };
 
