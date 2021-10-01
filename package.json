@@ -4,7 +4,7 @@
     "description": "### member - kwlee, hyeokim",
     "main": "index.js",
     "scripts": {
-        "migration":"ts-node ./srcs/migrations/index.ts",
+        "migrations": "ts-node ./srcs/migrations/index.ts",
         "start": "nodemon --exec ts-node ./srcs/app.ts"
     },
     "repository": {
