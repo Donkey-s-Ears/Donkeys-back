@@ -4,8 +4,9 @@
     "description": "### member - kwlee, hyeokim",
     "main": "index.js",
     "scripts": {
+        "migration":"ts-node ./srcs/migrations/index.ts",
         "start": "nodemon --exec ts-node ./srcs/app.ts"
-      },
+    },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/Donkey-s-Ears/donkeys-back.git"
@@ -18,10 +19,27 @@
     },
     "homepage": "https://github.com/Donkey-s-Ears/donkeys-back#readme",
     "dependencies": {
+        "@types/body-parser": "^1.19.1",
+        "@types/cookie-parser": "^1.4.2",
+        "@types/cors": "^2.8.12",
         "@types/express": "^4.17.11",
-        "express": "^4.17.1"
+        "@types/express-session": "^1.17.4",
+        "@types/multer": "^1.4.7",
+        "@types/sequelize": "^4.28.10",
+        "body-parser": "^1.19.0",
+        "cookie-parser": "^1.4.5",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "express-session": "^1.17.2",
+        "multer": "^1.4.3",
+        "mysql2": "^2.3.0",
+        "sequelize": "^6.6.5",
+        "sequelize-cli": "^6.2.0",
+        "session": "^0.1.0",
+        "static": "^2.0.0"
     },
     "devDependencies": {
+        "@types/dotenv": "^8.2.0",
         "@types/jest": "^26.0.23",
         "@typescript-eslint/eslint-plugin": "^4.23.0",
         "@typescript-eslint/parser": "^4.23.0",
